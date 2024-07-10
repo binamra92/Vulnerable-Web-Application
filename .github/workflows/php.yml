@@ -7,7 +7,7 @@ on:
   pull_request:
     branches:
       - '**'  # Trigger the workflow on pull requests targeting the main branch
-  workflow_dispatch:  # Allows manual triggers from GitHub UI
+  workflow_dispatch:  
 
 jobs:
   pull-and-scan:
